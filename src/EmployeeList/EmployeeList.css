@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 24px;
+}
+
+.App-header {
+    background-color: #00ccff;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+}
+.cards-list {
+    z-index: 0;
+    min-width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.clearButton {
+    min-width: 200px;
+    margin-right: 5px;
+    flex: 1;
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #8B0000;
+    color: white;
+    cursor: pointer;
+}
+.addButton {
+    min-width: 200px;
+    margin-left: 5px;
+    flex: 1;
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #00ccff;
+    color: white;
+    cursor: pointer;
+}
+.inputStyle{
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+    font-size: 20px;
+}
+.searchId {
+    min-width: 200px;
+    margin-left: 5px;
+    flex: 1;
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #00ccff;
+    color: white;
+    cursor: pointer;
+}
